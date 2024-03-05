@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+margin: 0px;
+background-color: rgb(175, 255, 193);
+margin-top: 0px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+header{
+
+background-image: linear-gradient(to bottom, rgba(124, 233, 144, 0.938), rgba(49, 114, 58, 0.89));
+background-attachment: local;
+
+color: rgb(255, 255, 255);
+box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.425);
+margin-top: 0px;
+}
+header > h1, h2{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0px 10px;
+}
+    
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;}
+    
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 150px 50px 150px;
+    border: 10px;
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.466);
+
+}
+
+@font-face {
+    font-family: FontIdroid ;
+    src: url(fontes/idroid.otf);
+}
+
+main > h1{
+
+    font-family: FontIdroid ;
+    text-align: left;
+    color: rgb(40, 90, 40);
+}
+
+main > p{
+    text-indent: 30px;
+}
+
+main > h2{
+    font-family: FontIdroid ;
+    text-align: left;
+    color: rgb(40, 90, 40);
+    background-image: linear-gradient(to left, rgba(124, 233, 144, 0.055), rgba(49, 114, 58, 0.308));
+    background-attachment: local;
+}
+
+section > h2{
+
+    font-family: FontIdroid ;
+    text-align: left;
+    color: rgb(40, 90, 40);
+    background-image: linear-gradient(to left, rgba(124, 233, 144, 0.055), rgba(49, 114, 58, 0.308));
+    background-attachment: local;
+}
+
+section > p{
+    text-indent: 30px;
+}
+
+#imgirina{
+
+    text-align: center;
+}
+
+.imgdroid{
+
+    text-align: center;
+}
+

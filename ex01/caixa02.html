@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+
+    <style>
+     body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgb(184, 184, 184);
+      margin: 0px;
+      
+     }
+
+     header{
+      background-color: aliceblue;
+      padding: 5px;
+      border-radius: 10px 10px;
+      border: 10px;
+      margin: 10px;
+      box-shadow: 4px 1px 5px rgba(0, 0, 0, 0.308);
+
+     }
+     main{
+
+        background-color: rgb(253, 253, 253);
+        border-radius: 10px 20px;
+        padding: 10px;
+        margin: 5px 10px;
+        border: 10px;
+        box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.288);
+     }
+
+     nav{
+        background-color: rgb(148, 148, 148);
+        border-radius: 3px;
+        box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.425);
+        padding: 3px;
+
+        
+     }
+     nav > a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 8px;
+        margin-right: 40px;
+        
+        
+        
+     }
+     nav > a#segundo:hover{
+
+        color: rgb(201, 32, 26);
+     }
+     nav > a:hover{
+        color: aquamarine;
+     }
+     nav > a#primeiro:hover{
+        color: brown;
+     }
+
+     footer{
+        background-color: rgb(124, 124, 124);
+        margin: 10px 0px;
+        padding: 5px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.281);
+    
+
+     }
+
+     footer > p{
+        margin: 0px;
+     }
+     nav > a#primeiro{
+        color: black;
+
+     }
+     nav >a#segundo{
+        color: pink;
+     }
+
+    </style>
+</head>
+<body>
+   <header>
+     <h1>Meu Menu</h1>
+     <nav>
+        <a id="primeiro" href="#">Link</a>
+        <a id="segundo" href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+     </nav>
+   </header>
+
+   <main>
+    <section id="assuntos">
+
+
+    </section>
+    <section id="noticias">
+        <article>
+           <h2>Notícias Sobre o Brasil</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veniam quasi doloremque id ipsum enim pariatur nostrum. Repellat necessitatibus dignissimos asperiores. Ex tenetur ad quaerat illo, provident accusamus fuga quis.</p>
+           <aside>
+            <p>Artigo escrito por terceiro.</p>
+           </aside>
+        </article>
+
+    </section>
+   </main>
+   
+   <footer>
+    <p>Desenvolvido por Gioênison</p>
+   </footer>
+
+</body>
+</html>
